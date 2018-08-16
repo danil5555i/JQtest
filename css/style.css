@@ -1,0 +1,57 @@
+body {
+	margin: 0 auto;
+
+}
+
+img {
+	max-width: 100%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.video-wrap {
+	position: relative;
+
+}
+
+.slick-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translateY(-50%);
+	font: 0/0 a;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background: #0ff;
+	color: transparent;
+}
+
+.slick-prev {
+	left: 0;
+}
+.slick-prev:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	border: 2px solid transparent;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	transform: rotate(135deg);
+}
+
+.slick-next {
+	right: 0;
+}
+
+.slick-next:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	border: 2px solid transparent;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	transform: rotate(45deg);
+}
